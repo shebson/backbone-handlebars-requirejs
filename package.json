@@ -1,0 +1,20 @@
+{
+  "name": "backbone-handlebars-require-template",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shebson/backbone-handlebars-require-template.git"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "nodemon": "~0.7.6",
+    "connect": "~2.11.0"
+  }
+}
