@@ -1,11 +1,12 @@
 define([
-	'router',
-	],
-	function(Router) {
-		var init = function() {
+    'router'
+    ],
+    function (Router) {
+        "use strict";
+        var init = function () {
             Router.init();
-		}
-		return {
-			init: init
-		}
-	});
+        };
+        return {
+            init: init
+        };
+    });

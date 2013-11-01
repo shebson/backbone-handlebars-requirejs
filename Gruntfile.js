@@ -1,22 +1,7 @@
-var path = require('path');
-var stylesheetsDir = 'assets/stylesheets';
-
-module.exports = function(grunt) {
-    // Project configuration.
+module.exports = function (grunt) {
+    "use strict";
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-//        stylus: {
-//            compile: {
-//                options: {
-//                    paths: [stylesheetsDir],
-//                    'include css': true
-//                },
-//                files: {
-//                    'public/styles.css': stylesheetsDir + '/index.styl',
-//                    'public/error.css': stylesheetsDir + '/error.styl'
-//                }
-//            }
-//        },
         requirejs: {
             compileProject: {
                 options : {
