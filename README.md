@@ -1,3 +1,14 @@
+Note
+=================================================
+
+I no longer use this template, but am leaving it on Github as a reference because I know some projects have forked it.
+
+Since writing this template, I've learned a lot, and the Javascript community has also (of course) moved forward. For
+a more modern boilerplate, see [backbone-browserify](https://github.com/shebson/backbone-browserify). In addition to
+using Browserify (which makes dependency management a breeze), [backbone-browserify](https://github.com/shebson/backbone-browserify)
+also handles LESS compilation, handlebars precompilation, unit testing, and more.
+
+
 Single-Page Webapp Template, Dev Server Included
 =================================================
 
